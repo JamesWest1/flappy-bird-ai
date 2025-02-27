@@ -93,7 +93,7 @@ def run(config_file):
     stats = neat.StatisticsReporter()
     p.add_reporter(stats)
     pygame.init()
-    winner = p.run(eval_genomes, 10)
+    winner = p.run(eval_genomes, 30)
     pygame.quit()
     quit()
 
